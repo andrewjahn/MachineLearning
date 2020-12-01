@@ -18,6 +18,7 @@ subject = num2str(subject);
 
 % Set defaults
 cfg = decoding_defaults;
+cfg.results.overwrite = 1;
 
 % Set the analysis that should be performed (default is 'searchlight')
 cfg.analysis = 'searchlight';
