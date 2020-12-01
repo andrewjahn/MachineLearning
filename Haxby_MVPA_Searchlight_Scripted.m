@@ -63,7 +63,6 @@ labelname8 = 'shoe';
 % cfg.results.output = {'accuracy_minus_chance','AUC_minus_chance'};
 % cfg.results.output = {'confusion_matrix'};
 cfg.results.output = {'accuracy_minus_chance'};
-cfg.results.overwrite = 1;
 
 % Some other cool stuff
 % Check out 
